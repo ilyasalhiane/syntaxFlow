@@ -3,6 +3,7 @@
 import { motion } from 'framer-motion';
 import { SendHorizontal } from 'lucide-react';
 
+
 export default function Contact() {
   return (
     <section id='contact' className='mx-auto w-full max-w-6xl px-4 py-16'>
@@ -56,6 +57,7 @@ export default function Contact() {
             className='inline-flex items-center gap-2 rounded-xl border border-cyan-200/45 bg-cyan-400/15 px-5 py-3 text-sm font-semibold text-cyan-100 transition hover:border-cyan-100 hover:bg-cyan-400/25'
           >
             Send Inquiry <SendHorizontal className='h-4 w-4' />
+
           </button>
         </form>
       </motion.div>
